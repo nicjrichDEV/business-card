@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Satoshi-Variable';
+    src: url('fonts/Satoshi-Variable.woff2') format('woff2');
+    font-weight: 300 900;
+    font-display: swap;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Satoshi-Variable';
+    margin: 20px;
+}
+
+.avatar {
+    width: 158px;
+}
+
+.card {
+    align-items: center;
+    background-color: #ddebf8;
+    border-bottom: 6px solid #d8cefe;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 20px;
+    width: fit-content;
+}
+
+.card-copy {
+    color: #2b2839;
+    font-weight: 600;
+    line-height: 16px;
+    margin: 0 0 0 24px;
+    text-align: center;
+
+}
+
+.util-b {
+    border: 1px dotted blue;
+}

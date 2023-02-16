@@ -7,10 +7,7 @@
 }
 
 body {
-    align-items: center;
-    display: flex;
     font-family: 'Satoshi-Variable';
-    height: 100vh;
     margin: 20px;
 }
 
